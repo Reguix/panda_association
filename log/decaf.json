@@ -1,0 +1,152 @@
+[
+   {
+      "analyzer" : "decaf",
+      "taint_period" : "taint_source",
+      "taint_source" : "hustcgcl",
+      "taint_type" : "sensitive strings"
+   },
+   {
+      "analyzer" : "decaf",
+      "bits" : 32,
+      "cr3" : 441987072,
+      "func" : {
+         "EIP" : 2024415096,
+         "len" : 8,
+         "read/write" : "read",
+         "taint_paddr" : 553673722,
+         "taint_vaddr" : 86856698,
+         "type" : "taint_propagation"
+      },
+      "os" : "winxpsp2",
+      "pid" : 1076,
+      "proc_start_addr" : 1875312640,
+      "proc_name" : "httpd.exe",
+      "root" : "str",
+      "taint_period" : "taint_propagation",
+      "timestamp" : 1558762236
+   },
+   {
+      "analyzer" : "decaf",
+      "bits" : 32,
+      "cr3" : 441987072,
+      "func" : {
+         "EIP" : 2024414935,
+         "len" : 8,
+         "read/write" : "read",
+         "taint_paddr" : 897286226,
+         "taint_vaddr" : 87908434,
+         "type" : "taint_propagation"
+      },
+      "os" : "winxpsp2",
+      "pid" : 1076,
+      "proc_start_addr" : 1875312640,
+      "proc_name" : "httpd.exe",
+      "root" : "str",
+      "taint_period" : "taint_propagation",
+      "timestamp" : 1558762236
+   },
+   {
+      "analyzer" : "decaf",
+      "bits" : 32,
+      "cr3" : 441987072,
+      "func" : {
+         "EIP" : 2024414935,
+         "len" : 8,
+         "read/write" : "write",
+         "taint_paddr" : 551222506,
+         "taint_vaddr" : 86805738,
+         "type" : "taint_propagation"
+      },
+      "os" : "winxpsp2",
+      "pid" : 1076,
+      "proc_start_addr" : 1875312640,
+      "proc_name" : "httpd.exe",
+      "root" : "str",
+      "taint_period" : "taint_propagation",
+      "timestamp" : 1558762236
+   },
+   {
+      "analyzer" : "decaf",
+      "bits" : 32,
+      "cr3" : 441987072,
+      "func" : {
+         "EIP" : 2024475205,
+         "len" : 8,
+         "read/write" : "read",
+         "taint_paddr" : 551222506,
+         "taint_vaddr" : 86805738,
+         "type" : "taint_propagation"
+      },
+      "os" : "winxpsp2",
+      "pid" : 1076,
+      "proc_start_addr" : 1875312640,
+      "proc_name" : "httpd.exe",
+      "root" : "str",
+      "taint_period" : "taint_propagation",
+      "timestamp" : 1558762236
+   },
+   {
+      "analyzer" : "decaf",
+      "bits" : 32,
+      "cr3" : 441987072,
+      "func" : {
+         "EIP" : 2024475224,
+         "len" : 8,
+         "read/write" : "write",
+         "taint_paddr" : 551222506,
+         "taint_vaddr" : 86805738,
+         "type" : "taint_propagation"
+      },
+      "os" : "winxpsp2",
+      "pid" : 1076,
+      "proc_start_addr" : 1875312640,
+      "proc_name" : "httpd.exe",
+      "root" : "str",
+      "taint_period" : "taint_propagation",
+      "timestamp" : 1558762236
+   },
+   {
+      "analyzer" : "decaf",
+      "bits" : 32,
+      "cr3" : 441987072,
+      "func" : {
+         "EIP" : 2154785142,
+         "len" : 8,
+         "read/write" : "read",
+         "taint_paddr" : 167899967,
+         "taint_vaddr" : 2311189311,
+         "type" : "taint_propagation"
+      },
+      "os" : "winxpsp2",
+      "pid" : 1076,
+      "proc_start_addr" : 1875312640,
+      "proc_name" : "httpd.exe",
+      "root" : "str",
+      "taint_period" : "taint_propagation",
+      "timestamp" : 1558762236
+   },
+   {
+      "analyzer" : "decaf",
+      "bits" : 32,
+      "cr3" : 441987072,
+      "func" : {
+         "dest_ip" : "222.20.79.158",
+         "dest_port" : 60036,
+         "func_name" : "send",
+         "op_type" : "socket",
+         "proto_type" : "TCP",
+         "source_ip" : "222.20.79.158",
+         "source_port" : 443,
+         "tainted_bytes" : 8,
+         "timestamp" : 1558762236,
+         "type" : "taint_leak"
+      },
+      "os" : "winxpsp2",
+      "pid" : 1076,
+      "proc_start_addr" : 1875312640,
+      "proc_name" : "httpd.exe",
+      "root" : "str",
+      "taint_period" : "taint_leak",
+      "timestamp" : 1558762236
+   }
+]
